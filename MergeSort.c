@@ -90,7 +90,7 @@ int main(void)
     printf("Given array is \n");
     printArray(ara, n);
 
-    merge_sub(ara, 0, n);
+    merge_sub(ara, 0, n - 1);
 
     printf("\nSorted array is \n");
     printArray(ara, n);
